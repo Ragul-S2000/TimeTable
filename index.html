@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      table{
+        border-collapse: collapse;
+        border:2px soild rgb(150,150, 150);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        font-weight: 100;
+        text-align: center;
+      }
+
+      .Justify{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+      }
+      th,
+      td{
+        border: 1px solid rgb(150,150, 150);
+        padding: 8px;
+      }
+      th[scope="col"] {
+  background-color: #505050;
+  color: #fff;
+}
+
+th[scope="row"] {
+  background-color: #d6ecd4;
+}
+
+tr {
+  background-color:rgba(219, 18, 18, 0.685);
+}
+    </style>
+</head>
+<body>
+   <table class="Justify">
+    <thead>
+        <tr>
+         <th scope="col" rowspan="2">Topic</th>
+         <th scope="col" colspan="5">Javascript</th>
+        </tr>
+        <tr>
+            <th scope="col">Hour1</th>
+            <th scope="col">Hour1</th>
+            <th scope="col">Hour1</th>
+            <th scope="col">Hour1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Variable</th>
+            <td>var</td>
+            <td>let</td>
+            <td>const</td>
+            <td rowspan="2">practice</td>
+        </tr>
+        <tr>
+            <th scope="row">Operator</th>
+            <td>Arithematic&Assignment</td>
+            <td>Relational</td>
+            <td>Logical</td>
+        </tr>
+        <tr>
+            <th scope="row">Statements</th>
+            <td>If and Ifelset</td>
+            <td>adder and nested</td>
+            <td>Loop</td>
+            <td>branch</td>
+        </tr>
+        <tr>
+            <th scope="row">Function</th>
+            <td>Function Intro</td>
+            <td>Type of function</td>
+           <td colspan="2">Recap</td>
+        </tr>
+
+    </tbody>
+    <!-- <th></th>
+    <th></th> -->
+   </table> 
+</body>
+</html>
